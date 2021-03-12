@@ -10,20 +10,20 @@ export default class App extends Component {
         <Header as='h2'>React Google Sheets!</Header>
         <Form className="form">
           <Form.Field>
-            <label>Name</label>
-            <input placeholder='Enter your name' />
+            <label>Favorite Beyonce song</label>
+            <input placeholder='Enter song' />
           </Form.Field>
           <Form.Field>
-            <label>Age</label>
-            <input placeholder='Enter your age' />
+            <label>Favorite Whitney song</label>
+            <input placeholder='Enter song' />
           </Form.Field>
           <Form.Field>
-            <label>Salary</label>
-            <input placeholder='Enter your salary' />
+            <label>Favorite Britney song</label>
+            <input placeholder='Enter song' />
           </Form.Field>
           <Form.Field>
-            <label>Hobby</label>
-            <input placeholder='Enter your hobby' />
+            <label>Favorite Mariah song</label>
+            <input placeholder='Enter song' />
           </Form.Field>
           
           <Button color="blue" type='submit'>Submit</Button>

@@ -4,7 +4,29 @@ import './App.css';
 
 
 export default class App extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      Beyonce: '',
+      Whitney: '',
+      Britney: '',
+      Mariah: ''
+    }
+  }
+
+
+  changeHandler = (e) => {
+    this.setState({[e.target.Beyonce] : e.target.value})
+  }
+
+  submitHandler = e => {
+    e.preventDefault();
+    console.log(this.state);
+  }
+
   render () {
+    const { Beyonce, Whitney, Britney, Mariah } = this.state;  
     return (
       <Container fluid className="container">
         <Header as='h2'>React Google Sheets!</Header>

@@ -40,12 +40,12 @@ export default class App extends Component {
             <input placeholder='Enter your favorite Whitney song' type="text" name = "Whitney" value = {Whitney} onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
-            <label>Britney</label>
+            <label>Favorite Britney song?</label>
             <input placeholder='Enter your favorite Britney song' type="text" name = "Britney" value = {Britney} onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
-            <label>Mariah</label>
-            <input placeholder='Enter favorite Mariah song' />
+            <label>Favorite Mariah song?</label>
+            <input placeholder='Enter your favorite Mariah song' type="text" name = "Mariah" value = {Mariah} onChange={this.changeHandler}/>
           </Form.Field>
           
           <Button color="blue" type='submit'>Submit</Button>

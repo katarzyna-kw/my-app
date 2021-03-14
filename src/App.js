@@ -26,18 +26,18 @@ export default class App extends Component {
   }
 
   render () {
-    const { Beyonce, Whitney, Britney, Mariah } = this.state;  
+    const { Beyonce, Whitney, Britney, Mariah } = this.state;
     return (
       <Container fluid className="container">
         <Header as='h2'>React Google Sheets!</Header>
         <Form className="form">
           <Form.Field>
-            <label>Beyonce</label>
-            <input placeholder='Enter favorite Beyonce Song' />
+            <label>Favorite Beyonce song?</label>
+            <input placeholder='Enter your favorite Beyonce song' type="text" name = "Beyonce" value = {Beyonce} onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
-            <label>Whitney</label>
-            <input placeholder='Enter favorite Whitney song' />
+            <label>Favorite Whitney song?</label>
+            <input placeholder='Enter your favorite Whitney song' type="text" name = "Whitney" value = {Whitney} onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
             <label>Britney</label>

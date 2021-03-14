@@ -41,7 +41,7 @@ export default class App extends Component {
           </Form.Field>
           <Form.Field>
             <label>Britney</label>
-            <input placeholder='Enter favorite Britney song' />
+            <input placeholder='Enter your favorite Britney song' type="text" name = "Britney" value = {Britney} onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
             <label>Mariah</label>

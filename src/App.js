@@ -29,7 +29,7 @@ export default class App extends Component {
     const { Beyonce, Whitney, Britney, Mariah } = this.state;
     return (
       <Container fluid className="container">
-        <Header as='h2'>React Google Sheets!</Header>
+        <Header as='h2'>Let's Go, Girls</Header>
         <Form className="form">
           <Form.Field>
             <label>Favorite Beyonce song?</label>

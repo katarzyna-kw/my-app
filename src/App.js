@@ -17,6 +17,7 @@ export default class App extends Component {
 
   changeHandler = (e) => {
     this.setState({[e.target.name] : e.target.value})
+
   }
 
   submitHandler = e => {
@@ -36,11 +37,11 @@ export default class App extends Component {
           </Form.Field>
           <Form.Field>
             <label>Age</label>
-            <input placeholder='Enter your age' type="number" name = "age" value = {age} onChange={this.changeHandler}/>
+            <input placeholder='Enter your age' type="text" name = "age" value = {age} onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
             <label>Salary</label>
-            <input placeholder='Enter your salary' type="number" name = "salary" value = {salary} onChange={this.changeHandler}/>
+            <input placeholder='Enter your salary' type="text" name = "salary" value = {salary} onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
             <label>Hobby</label>

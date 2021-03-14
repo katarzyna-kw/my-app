@@ -30,7 +30,7 @@ export default class App extends Component {
     return (
       <Container fluid className="container">
         <Header className="top">Hold Up</Header>
-          <Form className="form" onSubmit={ this.handleSumbit }>
+          <Form className="form" onSubmit={ this.submitHandler }>
             <Form.Field>
               <label>Favorite Beyonce song?</label>
               <input placeholder='Enter your favorite Beyonce song' type="text" name = "Beyonce" value = {Beyonce} onChange={this.changeHandler}/>

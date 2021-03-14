@@ -1,15 +1,21 @@
-.container {
-    color: #fff;
-    background: linear-gradient(86deg, #9bf6ff  33%, rgba(0, 0, 0, 0) 33%), linear-gradient(160deg, #ffc6ff 66%, #ffd6a5 66%);
+body {
+    position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20px 20px 20px 20px;
+}
 
+.page {
+    width: 100%;
+    background: linear-gradient(86deg, #9bf6ff  33%, rgba(0, 0, 0, 0) 33%), linear-gradient(160deg, #ffc6ff 66%, #ffd6a5 66%);
+}
+
+.container {
+    padding: 20px 20px 20px 20px;
+    color: #fff;
 }
 
 .form {
-    width: 80%;
+    width: 100%;
 }
 
 .top {

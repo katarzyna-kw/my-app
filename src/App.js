@@ -29,27 +29,26 @@ export default class App extends Component {
     const { Beyonce, Whitney, Britney, Mariah } = this.state;
     return (
       <Container fluid className="container">
-        <Header as='h2'>Let's Go, Girls</Header>
-        <Form className="form">
-          <Form.Field>
-            <label>Favorite Beyonce song?</label>
-            <input placeholder='Enter your favorite Beyonce song' type="text" name = "Beyonce" value = {Beyonce} onChange={this.changeHandler}/>
-          </Form.Field>
-          <Form.Field>
-            <label>Favorite Whitney song?</label>
-            <input placeholder='Enter your favorite Whitney song' type="text" name = "Whitney" value = {Whitney} onChange={this.changeHandler}/>
-          </Form.Field>
-          <Form.Field>
-            <label>Favorite Britney song?</label>
-            <input placeholder='Enter your favorite Britney song' type="text" name = "Britney" value = {Britney} onChange={this.changeHandler}/>
-          </Form.Field>
-          <Form.Field>
-            <label>Favorite Mariah song?</label>
-            <input placeholder='Enter your favorite Mariah song' type="text" name = "Mariah" value = {Mariah} onChange={this.changeHandler}/>
-          </Form.Field>
-          
-          <Button color="blue" type='submit'>Submit</Button>
-        </Form>
+        <Header className="top">Hold Up</Header>
+          <Form className="form">
+            <Form.Field>
+              <label>Favorite Beyonce song?</label>
+              <input placeholder='Enter your favorite Beyonce song' type="text" name = "Beyonce" value = {Beyonce} onChange={this.changeHandler}/>
+            </Form.Field>
+            <Form.Field>
+              <label>Favorite Whitney song?</label>
+              <input placeholder='Enter your favorite Whitney song' type="text" name = "Whitney" value = {Whitney} onChange={this.changeHandler}/>
+            </Form.Field>
+            <Form.Field>
+              <label>Favorite Britney song?</label>
+              <input placeholder='Enter your favorite Britney song' type="text" name = "Britney" value = {Britney} onChange={this.changeHandler}/>
+            </Form.Field>
+            <Form.Field>
+              <label>Favorite Mariah song?</label>
+              <input placeholder='Enter your favorite Mariah song' type="text" name = "Mariah" value = {Mariah} onChange={this.changeHandler}/>
+            </Form.Field>
+            <Button color="pink" type='submit'>Submit</Button>
+          </Form>
       </Container>
     );
   }

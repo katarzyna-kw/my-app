@@ -1,6 +1,6 @@
 .container {
     color: #fff;
-    background: linear-gradient(86deg, #ffd6a5  33%, rgba(0, 0, 0, 0) 33%), linear-gradient(160deg, #9bf6ff 66%, #ffc6ff 66%);
+    background: linear-gradient(86deg, #9bf6ff  33%, rgba(0, 0, 0, 0) 33%), linear-gradient(160deg, #ffc6ff 66%, #ffd6a5 66%);
     display: flex;
     justify-content: center;
     align-items: center;

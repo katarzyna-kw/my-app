@@ -30,7 +30,7 @@ export default class App extends Component {
     return (
       <div className="wrapper">
         <div className="top">
-          <Header as='h2'>React Google Sheets!</Header>
+          <Header as='h2'>let's go, girls</Header>
         </div>
         <Form className="form" onSubmit={this.submitHandler}>
           <Form.Field>

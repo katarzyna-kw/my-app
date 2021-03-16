@@ -41,8 +41,8 @@ export default class App extends Component {
             <input placeholder='Enter song' type="text" name = "age" value = {age} onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
-            <label>Salary</label>
-            <input placeholder='Enter your salary' type="text" name = "salary" value = {salary} onChange={this.changeHandler}/>
+            <label>Favorite Britney song?</label>
+            <input placeholder='Enter song' type="text" name = "salary" value = {salary} onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
             <label>Hobby</label>

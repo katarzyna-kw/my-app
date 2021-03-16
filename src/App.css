@@ -1,6 +1,5 @@
 body {
-    width: 100%!important;
-    position: relative;
+    width: 100;
     display: flex;
     justify-content: center;
 }
@@ -8,15 +7,16 @@ body {
 .wrapper {
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    padding: 70px;
     color: #fff;
+    width: 100%;
 }
 
-/* .form {
-    width: 100%;
-} */
+.form {
+    padding-left: 10px;
+}
 
-h2 {
+.wrapper h2 {
     text-transform: lowercase!important;
     writing-mode: vertical-rl
 }

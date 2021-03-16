@@ -7,7 +7,7 @@ export default class App extends Component {
     super(props)
   
     this.state = {
-       name: '',
+       beyonce: '',
        age: '',
        salary: '',
        hobby: ''
@@ -26,7 +26,7 @@ export default class App extends Component {
   }
   
   render() {
-    const { name, age, salary, hobby } = this.state;
+    const { beyonce, age, salary, hobby } = this.state;
     return (
       <div className="wrapper">
         <div className="top">
@@ -35,7 +35,7 @@ export default class App extends Component {
         <Form className="form" onSubmit={this.submitHandler}>
           <Form.Field>
             <label>Favorite Beyonce song?</label>
-            <input placeholder='Enter song' type="text" name = "name" value = {name} onChange={this.changeHandler}/>
+            <input placeholder='Enter song' type="text" name = "beyonce" value = {beyonce} onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
             <label>Favorite Whitney song?</label>

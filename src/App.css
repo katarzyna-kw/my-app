@@ -19,4 +19,5 @@ body {
 
 h2 {
     text-transform: lowercase!important;
+    writing-mode: vertical-rl
 }

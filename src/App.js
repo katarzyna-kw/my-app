@@ -33,8 +33,8 @@ export default class App extends Component {
         <Header as='h2'>React Google Sheets!</Header>
         <Form className="form" onSubmit={this.submitHandler}>
           <Form.Field>
-            <label>Name</label>
-            <input placeholder='Enter your name' type="text" name = "name" value = {name} onChange={this.changeHandler}/>
+            <label>Favorite Beyonce song</label>
+            <input placeholder='Enter song' type="text" name = "name" value = {name} onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
             <label>Age</label>

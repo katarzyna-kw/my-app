@@ -50,7 +50,7 @@ export default class App extends Component {
             <input placeholder='Enter song' type="text" name = "hobby" value = {hobby} onChange={this.changeHandler}/>
           </Form.Field>
 
-            <Button color="pink" type='submit'>Submit</Button>
+            <Button type='submit'>Submit</Button>
           </Form>
       </div>
     );

@@ -1,14 +1,15 @@
 body {
-    width: 100%;
+    width: 100%!important;
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-.container {
+.wrapper {
+    display: flex;
+    flex-direction: row;
     padding: 20px;
     color: #fff;
-    width: 100%;
 }
 
 /* .form {

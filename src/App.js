@@ -28,7 +28,7 @@ export default class App extends Component {
   render() {
     const { name, age, salary, hobby } = this.state;
     return (
-      <Container fluid className="container">
+      <div className="wrapper">
         <div className="top">
           <Header as='h2'>React Google Sheets!</Header>
         </div>
@@ -52,7 +52,7 @@ export default class App extends Component {
 
             <Button color="pink" type='submit'>Submit</Button>
           </Form>
-      </Container>
+      </div>
     );
   }
 }

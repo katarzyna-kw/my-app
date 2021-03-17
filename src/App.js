@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Axios from 'axios'
+import axios from 'axios'
 import { Button, Form, Header } from 'semantic-ui-react'
 import './App.css';
 
@@ -11,7 +11,7 @@ export default class App extends Component {
        beyonce: '',
        whitney: '',
        britney: '',
-       hobby: ''
+       mariah: ''
     }
   }
 
@@ -32,7 +32,7 @@ export default class App extends Component {
   }
   
   render() {
-    const { beyonce, whitney, britney, hobby } = this.state;
+    const { beyonce, whitney, britney, mariah } = this.state;
     return (
       <div className="wrapper">
         <div className="top">
@@ -53,7 +53,7 @@ export default class App extends Component {
           </Form.Field>
           <Form.Field>
             <label>Favorite Mariah song?</label>
-            <input placeholder='Enter song' type="text" name = "hobby" value = {hobby} onChange={this.changeHandler}/>
+            <input placeholder='Enter song' type="text" name = "mariah" value = {mariah} onChange={this.changeHandler}/>
           </Form.Field>
 
             <Button type='submit'>Submit</Button>

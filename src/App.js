@@ -10,7 +10,7 @@ export default class App extends Component {
     this.state = {
        beyonce: '',
        whitney: '',
-       salary: '',
+       britney: '',
        hobby: ''
     }
   }
@@ -32,7 +32,7 @@ export default class App extends Component {
   }
   
   render() {
-    const { beyonce, whitney, salary, hobby } = this.state;
+    const { beyonce, whitney, britney, hobby } = this.state;
     return (
       <div className="wrapper">
         <div className="top">
@@ -49,7 +49,7 @@ export default class App extends Component {
           </Form.Field>
           <Form.Field>
             <label>Favorite Britney song?</label>
-            <input placeholder='Enter song' type="text" name = "salary" value = {salary} onChange={this.changeHandler}/>
+            <input placeholder='Enter song' type="text" name = "britney" value = {britney} onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
             <label>Favorite Mariah song?</label>

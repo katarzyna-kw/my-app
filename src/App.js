@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState, Component } from 'react'
 import axios from 'axios'
 import { Button, Form, Header } from 'semantic-ui-react'
 import './App.css';
@@ -41,11 +41,22 @@ export default class App extends Component {
         <Form className="form" onSubmit={this.submitHandler}>
           <Form.Field>
             <label>Favorite Beyonce song?</label>
-            <input placeholder='Enter song' type="text" name = "beyonce" value = {beyonce} onChange={this.changeHandler}/>
+            <input 
+              placeholder='Enter song' 
+              type="text" 
+              name = "beyonce" 
+              value = {beyonce} 
+              onChange={this.changeHandler}
+            />
           </Form.Field>
           <Form.Field>
             <label>Favorite Whitney song?</label>
-            <input placeholder='Enter song' type="text" name = "whitney" value = {whitney} onChange={this.changeHandler}/>
+            <input 
+              placeholder='Enter song' 
+              type="text" 
+              name = "whitney" 
+              value = {whitney} 
+              onChange={this.changeHandler}/>
           </Form.Field>
           <Form.Field>
             <label>Favorite Britney song?</label>
@@ -56,7 +67,7 @@ export default class App extends Component {
             <input placeholder='Enter song' type="text" name = "mariah" value = {mariah} onChange={this.changeHandler}/>
           </Form.Field>
 
-            <Button type='submit'>Submit</Button>
+            <Button color = 'pink' type='submit'>Submit</Button>
           </Form>
       </div>
     );

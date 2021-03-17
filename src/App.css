@@ -20,13 +20,3 @@ body {
     text-transform: lowercase!important;
     writing-mode: vertical-rl
 }
-
-button.ui.button {
-    color: white;
-    background-color: slateblue;
-}
-  
-  button.ui.button:hover {
-    color: #ffd6a5;
-    background-color: slateblue;
-}

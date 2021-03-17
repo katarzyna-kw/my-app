@@ -77,7 +77,7 @@ export default class App extends Component {
               onChange={this.changeHandler}/>
           </Form.Field>
 
-            <Button color = 'pink' type='submit'>Submit</Button>
+            <Button type='submit'>Submit</Button>
           </Form>
       </div>
     );

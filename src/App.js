@@ -20,7 +20,7 @@ function App() {
         objt
       )
     .then((response) => {
-      console.log(response);
+      alert("Thank you for sharing!");
     });
   };
   

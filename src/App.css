@@ -23,10 +23,14 @@ body {
 
 button.ui.button {
     color: white;
-    background-color: slateblue;
+    background-color: #292F36;
 }
   
   button.ui.button:hover {
-    color: #ffd6a5;
-    background-color: slateblue;
+    color: white;
+    background-color: #70D6FF;
 }
+
+
+/* blue 70D6FF */
+/* sunset yellow FFD670 */
